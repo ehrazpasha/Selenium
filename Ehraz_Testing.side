@@ -1,0 +1,482 @@
+{
+  "id": "79ba1ca8-40e6-4c7c-907e-29c848e2db3c",
+  "version": "2.0",
+  "name": "Ehraz_Testing",
+  "url": "https://www.rooom.com",
+  "tests": [{
+    "id": "4319ddce-25ef-48ae-b942-43e17c5dc482",
+    "name": "Ehraz_Test",
+    "commands": [{
+      "id": "883d55c0-3232-4187-9445-ab8e56bba8aa",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4f65a07d-e3d3-4f51-915f-45f72f861d9c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1280x680",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fb32b755-ef6e-4b6e-ba9e-f2e93d87f92e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.scroll:nth-child(4)",
+      "targets": [
+        ["css=.scroll:nth-child(4)", "css:finder"],
+        ["xpath=//a[contains(text(),'14 Tage testen')]", "xpath:link"],
+        ["xpath=//div[@id='bgVideo']/div/a[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/pricing')])[4]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bf2a238b-0ed8-489c-8554-f1744918aff5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.laufzeit label:nth-child(4)",
+      "targets": [
+        ["css=.laufzeit label:nth-child(4)", "css:finder"],
+        ["xpath=//div[@id='register-steps']/div/div/section/label[2]", "xpath:idRelative"],
+        ["xpath=//label[2]", "xpath:position"],
+        ["xpath=//label[contains(.,'24 Monate')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "83ba9c9a-6a09-47d0-8e79-3f96c84e69de",
+      "comment": "",
+      "command": "click",
+      "target": "css=.laufzeit label:nth-child(6)",
+      "targets": [
+        ["css=.laufzeit label:nth-child(6)", "css:finder"],
+        ["xpath=//div[@id='register-steps']/div/div/section/label[3]", "xpath:idRelative"],
+        ["xpath=//label[3]", "xpath:position"],
+        ["xpath=//label[contains(.,'12 Monate')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d9cbc857-78bd-456f-91e1-86835bfc5532",
+      "comment": "",
+      "command": "click",
+      "target": "css=#register-steps > .row:nth-child(1)",
+      "targets": [
+        ["css=#register-steps > .row:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='register-steps']/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "10915bd7-8d07-4dc1-a18d-c19fb2ee2a63",
+      "comment": "",
+      "command": "click",
+      "target": "css=.laufzeit label:nth-child(8)",
+      "targets": [
+        ["css=.laufzeit label:nth-child(8)", "css:finder"],
+        ["xpath=//div[@id='register-steps']/div/div/section/label[4]", "xpath:idRelative"],
+        ["xpath=//label[4]", "xpath:position"],
+        ["xpath=//label[contains(.,'1 Monat')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3a92c396-bab1-4a1c-b34a-4e1b3063f0eb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.laufzeit label:nth-child(6)",
+      "targets": [
+        ["css=.laufzeit label:nth-child(6)", "css:finder"],
+        ["xpath=//div[@id='register-steps']/div/div/section/label[3]", "xpath:idRelative"],
+        ["xpath=//label[3]", "xpath:position"],
+        ["xpath=//label[contains(.,'12 Monate')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "16a20c9d-f46f-463e-8624-b0bdaa5d14ed",
+      "comment": "",
+      "command": "click",
+      "target": "css=.abrechnung label:nth-child(2)",
+      "targets": [
+        ["css=.abrechnung label:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='register-steps']/div/div[2]/div/section/label", "xpath:idRelative"],
+        ["xpath=//div[2]/div/section/label", "xpath:position"],
+        ["xpath=//label[contains(.,'jährlich')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "99266b73-790e-41a1-8fba-46fe71bfe345",
+      "comment": "",
+      "command": "click",
+      "target": "css=.text-center:nth-child(9) > .btn",
+      "targets": [
+        ["css=.text-center:nth-child(9) > .btn", "css:finder"],
+        ["xpath=(//a[contains(text(),'Kostenlos Testen')])[2]", "xpath:link"],
+        ["xpath=//div[@id='register-steps']/div[2]/div[3]/div/div[7]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/user/register/premium?period=12&billing=12')]", "xpath:href"],
+        ["xpath=//div[7]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "96d468f7-8987-497b-ad29-b216f3e7fcfd",
+      "comment": "",
+      "command": "click",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div[@id='ajaxModal']/div/div/div/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0ae4c8c1-2cb1-4af1-919b-7d216d0d03be",
+      "comment": "",
+      "command": "click",
+      "target": "css=.block-content > .text-center:nth-child(3)",
+      "targets": [
+        ["css=.block-content > .text-center:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='ajaxModal']/div/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[7]/div/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bc424da0-1ce9-42f0-9593-0066e1fb45a6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ricon-x-circle",
+      "targets": [
+        ["css=.ricon-x-circle", "css:finder"],
+        ["xpath=//div[@id='ajaxModal']/div/div/div/div/h4/span/i", "xpath:idRelative"],
+        ["xpath=//h4/span/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9d2119a4-c361-489c-9e29-dfb790e82f38",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Alle Pakete vergleichen",
+      "targets": [
+        ["linkText=Alle Pakete vergleichen", "linkText"],
+        ["css=.btn-lg:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Alle Pakete vergleichen')]", "xpath:link"],
+        ["xpath=//div[@id='platform']/div[3]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#preistabelle')]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div/div/div/div[3]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Alle Pakete vergleichen')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "89acc4cd-8015-4050-a2ea-f724cfb998fa",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Erweiterungen",
+      "targets": [
+        ["linkText=Erweiterungen", "linkText"],
+        ["css=.nav-tabs > li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Erweiterungen')]", "xpath:link"],
+        ["xpath=//div[@id='pricetabs']/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#erweiterung')]", "xpath:href"],
+        ["xpath=//div[2]/div/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Erweiterungen')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "edb5d8f6-12fe-4b2e-90b3-edb9d557aa71",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=rooom360",
+      "targets": [
+        ["linkText=rooom360", "linkText"],
+        ["css=.nav-tabs > li:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'rooom360')]", "xpath:link"],
+        ["xpath=//div[@id='pricetabs']/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#rooom360')]", "xpath:href"],
+        ["xpath=//div[2]/div/ul/li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "282f366f-d479-46ae-9ec5-6fcd57172866",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=rooomBOOKS",
+      "targets": [
+        ["linkText=rooomBOOKS", "linkText"],
+        ["css=.nav-tabs > li:nth-child(4) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'rooomBOOKS')]", "xpath:link"],
+        ["xpath=//div[@id='pricetabs']/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#rooomBOOKS')]", "xpath:href"],
+        ["xpath=//div[2]/div/ul/li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3d3823d4-82b7-4b55-9487-091f424ee5fe",
+      "comment": "",
+      "command": "click",
+      "target": "css=.navbar-right .dropdown-toggle",
+      "targets": [
+        ["css=.navbar-right .dropdown-toggle", "css:finder"],
+        ["xpath=//div[@id='wrap']/nav/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=//nav/div/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "27e20b72-a83d-4ae5-b96a-9e4de70723d5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.dropdown-menu img",
+      "targets": [
+        ["css=.dropdown-menu img", "css:finder"],
+        ["xpath=//img[@alt='en_US']", "xpath:img"],
+        ["xpath=//div[@id='wrap']/nav/div/ul/li/ul/li/a/img", "xpath:idRelative"],
+        ["xpath=//li/ul/li/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "aa1bb833-51b4-4266-92d3-955bbf2f42be",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=rooomBOOKS",
+      "targets": [
+        ["linkText=rooomBOOKS", "linkText"],
+        ["css=.nav-tabs > li:nth-child(4) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'rooomBOOKS')]", "xpath:link"],
+        ["xpath=//div[@id='pricetabs']/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#rooomBOOKS')]", "xpath:href"],
+        ["xpath=//div[2]/div/ul/li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f5d9cf93-5680-4fad-8f9a-059d78b58b08",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Extensions",
+      "targets": [
+        ["linkText=Extensions", "linkText"],
+        ["css=.nav-tabs > li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Extensions')]", "xpath:link"],
+        ["xpath=//div[@id='pricetabs']/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#erweiterung')]", "xpath:href"],
+        ["xpath=//div[2]/div/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Extensions')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ea67039c-8000-45fd-b050-ae2e8de73d86",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=rooom360",
+      "targets": [
+        ["linkText=rooom360", "linkText"],
+        ["css=.nav-tabs > li:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'rooom360')]", "xpath:link"],
+        ["xpath=//div[@id='pricetabs']/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#rooom360')]", "xpath:href"],
+        ["xpath=//div[2]/div/ul/li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "be673649-89f0-4b16-b0ab-39672d34b2ab",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=rooomBOOKS",
+      "targets": [
+        ["linkText=rooomBOOKS", "linkText"],
+        ["css=.nav-tabs > li:nth-child(4) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'rooomBOOKS')]", "xpath:link"],
+        ["xpath=//div[@id='pricetabs']/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#rooomBOOKS')]", "xpath:href"],
+        ["xpath=//div[2]/div/ul/li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "72d83846-749e-4e15-b22f-84498f6e4b3a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-xs-12:nth-child(2) .row:nth-child(2) > .col-xs-8",
+      "targets": [
+        ["css=.col-xs-12:nth-child(2) .row:nth-child(2) > .col-xs-8", "css:finder"],
+        ["xpath=//div[@id='rooomBOOKS']/div/div[2]/div/div[3]/div/div[2]/div[2]", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div[2]/div/div[3]/div/div[2]/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "815ca67a-7d7c-475e-bdd8-6f133ccf2f63",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-xs-12:nth-child(1) > .individualbox .row:nth-child(2) > .col-xs-8",
+      "targets": [
+        ["css=.col-xs-12:nth-child(1) > .individualbox .row:nth-child(2) > .col-xs-8", "css:finder"],
+        ["xpath=//div[@id='rooomBOOKS']/div/div/div/div[3]/div/div[2]/div[2]", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/div/div[3]/div/div[2]/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "650b9424-9572-4ff3-9738-7ed2066b97e4",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Extensions",
+      "targets": [
+        ["linkText=Extensions", "linkText"],
+        ["css=.nav-tabs > li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Extensions')]", "xpath:link"],
+        ["xpath=//div[@id='pricetabs']/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#erweiterung')]", "xpath:href"],
+        ["xpath=//div[2]/div/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Extensions')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3290952c-e29f-43d4-9a69-c2edc97b10ec",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Platform",
+      "targets": [
+        ["linkText=Platform", "linkText"],
+        ["css=.nav-tabs > li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Platform')]", "xpath:link"],
+        ["xpath=//div[@id='pricetabs']/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#platform')]", "xpath:href"],
+        ["xpath=//div[2]/div/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Platform')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a0aeff8a-62d1-489c-b1d4-8cc26f22e76c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-xs-12:nth-child(2) > .preisbox > .preis-desc",
+      "targets": [
+        ["css=.col-xs-12:nth-child(2) > .preisbox > .preis-desc", "css:finder"],
+        ["xpath=//div[@id='register-steps']/div[2]/div[2]/div/p", "xpath:idRelative"],
+        ["xpath=//div[2]/div/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Integrate 3D Product and Space Viewer into website')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cde9a757-443d-45b9-811d-98b126b60cb9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.preisbox-free > .preis-desc",
+      "targets": [
+        ["css=.preisbox-free > .preis-desc", "css:finder"],
+        ["xpath=//div[@id='register-steps']/div[2]/div/div/p", "xpath:idRelative"],
+        ["xpath=//p", "xpath:position"],
+        ["xpath=//p[contains(.,'Virtual 3D Spaces within the rooom platform')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ca6c97d7-b924-4b20-b7f0-2119f8e8d013",
+      "comment": "",
+      "command": "click",
+      "target": "css=.preis-desc:nth-child(4)",
+      "targets": [
+        ["css=.preis-desc:nth-child(4)", "css:finder"],
+        ["xpath=//div[@id='register-steps']/div[2]/div[3]/div/p", "xpath:idRelative"],
+        ["xpath=//div[3]/div/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Get off to a flying start with personal advice')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f61430b0-4191-47e1-b5f8-e8ee7fc63648",
+      "comment": "",
+      "command": "click",
+      "target": "css=.preisbox-enterprise > .preis-desc",
+      "targets": [
+        ["css=.preisbox-enterprise > .preis-desc", "css:finder"],
+        ["xpath=//div[@id='register-steps']/div[2]/div[4]/div/p", "xpath:idRelative"],
+        ["xpath=//div[4]/div/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Your individual rooom package (including conception)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "08888e4d-88e0-4aa6-b291-d5f84430fc2a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.abrechnung label:nth-child(4)",
+      "targets": [
+        ["css=.abrechnung label:nth-child(4)", "css:finder"],
+        ["xpath=//div[@id='register-steps']/div/div[2]/div/section/label[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/section/label[2]", "xpath:position"],
+        ["xpath=//label[contains(.,'monthly')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bb25eba6-d013-456d-af41-e2340146bff5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.laufzeit label:nth-child(4)",
+      "targets": [
+        ["css=.laufzeit label:nth-child(4)", "css:finder"],
+        ["xpath=//div[@id='register-steps']/div/div/section/label[2]", "xpath:idRelative"],
+        ["xpath=//label[2]", "xpath:position"],
+        ["xpath=//label[contains(.,'24 months')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9fe2083c-2963-4ed5-b952-616d096a5568",
+      "comment": "",
+      "command": "click",
+      "target": "css=.laufzeit label:nth-child(6)",
+      "targets": [
+        ["css=.laufzeit label:nth-child(6)", "css:finder"],
+        ["xpath=//div[@id='register-steps']/div/div/section/label[3]", "xpath:idRelative"],
+        ["xpath=//label[3]", "xpath:position"],
+        ["xpath=//label[contains(.,'12 months')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d069d47e-ed2a-47df-be90-aa9335ad81d5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.laufzeit label:nth-child(8)",
+      "targets": [
+        ["css=.laufzeit label:nth-child(8)", "css:finder"],
+        ["xpath=//div[@id='register-steps']/div/div/section/label[4]", "xpath:idRelative"],
+        ["xpath=//label[4]", "xpath:position"],
+        ["xpath=//label[contains(.,'1 month')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d6eb1d70-8502-44c1-bc14-06432a2d3bad",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=rooom360",
+      "targets": [
+        ["linkText=rooom360", "linkText"],
+        ["css=.nav-tabs > li:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'rooom360')]", "xpath:link"],
+        ["xpath=//div[@id='pricetabs']/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#rooom360')]", "xpath:href"],
+        ["xpath=//div[2]/div/ul/li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "305488fc-5674-49ed-ac40-8157fcc010ec",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=rooomBOOKS",
+      "targets": [
+        ["linkText=rooomBOOKS", "linkText"],
+        ["css=.nav-tabs > li:nth-child(4) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'rooomBOOKS')]", "xpath:link"],
+        ["xpath=//div[@id='pricetabs']/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#rooomBOOKS')]", "xpath:href"],
+        ["xpath=//div[2]/div/ul/li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "dcc94c03-d11f-40e6-b672-aa15e7b11176",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["4319ddce-25ef-48ae-b942-43e17c5dc482"]
+  }],
+  "urls": ["https://www.rooom.com/"],
+  "plugins": []
+}
